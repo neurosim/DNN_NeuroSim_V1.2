@@ -4,8 +4,6 @@ The DNN+NeuroSim framework was developed by [Prof. Shimeng Yu's group](https://s
 
 This is the released version 1.2 (Aug 10, 2020) for the tool, and this version has **_improved following inference engine estimation_**:
 ```
-5. Calibrate FinFET technology library: temperature-related features
-```
 1. Calibrate FinFET technology library: temperature-related features.
 ```
 
