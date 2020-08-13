@@ -1113,9 +1113,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 					muxDecoder.CalculatePower(numColMuxed, 1);
 				}
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numColMuxed);
+					sarADC.CalculatePower(columnResistance, 1);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, 1);
 					multilevelSAEncoder.CalculatePower(numColMuxed);
 				}
 				if (numReadPulse > 1) {
@@ -1192,9 +1192,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 				precharger.CalculatePower(numColMuxed, numWriteOperationPerRow*numRow*activityRowWrite);
 				sramWriteDriver.CalculatePower(numWriteOperationPerRow*numRow*activityRowWrite);
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numColMuxed);
+					sarADC.CalculatePower(columnResistance, 1);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, 1);
 					multilevelSAEncoder.CalculatePower(numColMuxed);
 				}
 				
@@ -1227,9 +1227,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 				precharger.CalculatePower(numColMuxed, numWriteOperationPerRow*numRow*activityRowWrite);
 				sramWriteDriver.CalculatePower(numWriteOperationPerRow*numRow*activityRowWrite);
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numColMuxed);
+					sarADC.CalculatePower(columnResistance, 1);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, 1);
 					multilevelSAEncoder.CalculatePower(numColMuxed);
 				}
 				if (numReadPulse > 1) {
@@ -1282,9 +1282,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 					muxDecoder.CalculatePower(numColMuxed, 1);
 				}
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numRow*activityRowRead*numColMuxed);
+					sarADC.CalculatePower(columnResistance, numRow*activityRowRead);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numRow*activityRowRead*numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, numRow*activityRowRead);
 					if (avgWeightBit > 1) {
 						multilevelSAEncoder.CalculatePower(numRow*activityRowRead*numColMuxed);
 					}
@@ -1355,9 +1355,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 					muxDecoder.CalculatePower(numColMuxed, 1);
 				}
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numColMuxed);
+					sarADC.CalculatePower(columnResistance, 1);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, 1);
 					multilevelSAEncoder.CalculatePower(numColMuxed);
 				}
 				if (numReadPulse > 1) {
@@ -1476,9 +1476,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 					muxDecoder.CalculatePower(numColMuxed, 1);
 				}
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numColMuxed);
+					sarADC.CalculatePower(columnResistance, 1);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, 1);
 					multilevelSAEncoder.CalculatePower(numColMuxed);
 				}
 				
@@ -1531,9 +1531,9 @@ void SubArray::CalculatePower(const vector<double> &columnResistance) {
 					muxDecoder.CalculatePower(numColMuxed, 1);
 				}
 				if (SARADC) {
-					sarADC.CalculatePower(columnResistance, numColMuxed);
+					sarADC.CalculatePower(columnResistance, 1);
 				} else {
-					multilevelSenseAmp.CalculatePower(columnResistance, numColMuxed);
+					multilevelSenseAmp.CalculatePower(columnResistance, 1);
 					multilevelSAEncoder.CalculatePower(numColMuxed);
 				}
 				if (numReadPulse > 1) {
