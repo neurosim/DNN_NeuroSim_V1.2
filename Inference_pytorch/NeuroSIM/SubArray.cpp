@@ -926,7 +926,7 @@ void SubArray::CalculateLatency(double columnRes, const vector<double> &columnRe
 				readLatency += shiftAdd.readLatency;
 				readLatency += sarADC.readLatency;
 				
-				readLatencyADC = multilevelSenseAmp.readLatency + multilevelSAEncoder.readLatency;
+				readLatencyADC = multilevelSenseAmp.readLatency + multilevelSAEncoder.readLatency + sarADC.readLatency;
 				readLatencyAccum = shiftAdd.readLatency;
 				readLatencyOther = MAX(wlNewSwitchMatrix.readLatency + wlSwitchMatrix.readLatency, ( ((numColMuxed > 1)==true? (mux.readLatency+muxDecoder.readLatency):0) )/numReadPulse) + colDelay/numReadPulse;
 				
