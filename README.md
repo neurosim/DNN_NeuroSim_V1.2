@@ -2,11 +2,11 @@
 
 The DNN+NeuroSim framework was developed by [Prof. Shimeng Yu's group](https://shimeng.ece.gatech.edu/) (Georgia Institute of Technology). The model is made publicly available on a non-commercial basis. Copyright of the model is maintained by the developers, and the model is distributed under the terms of the [Creative Commons Attribution-NonCommercial 4.0 International Public License](http://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
-:star: This is the released version 1.2 (Aug 8, 2020) for the tool, and this version has **_improved following inference engine estimation_**:
+:star2: This is the released version 1.2 (Aug 8, 2020) for the tool, and this version has **_improved following inference engine estimation_**:
 ```
 1. Calibrate FinFET technology library: temperature-related features.
 ```
-:star: This version has also added **_new features into inference accuracy estimation_**:
+:star2: This version has also added **_new features into inference accuracy estimation_**:
 ```
 1. Introduce VSA-bsaed MLSA (in addition to the original CSA-based MLSA)
 2. Introduce SAR ADC
@@ -33,7 +33,7 @@ If you use the tool or adapt the tool in your work or publication, you are requi
 
 The default example is 8-bit VGG-8 for CIFAR-10 in this framework.
 
-If you have logistic questions or comments on the model, please contact [Prof. Shimeng Yu](mailto:shimeng.yu@ece.gatech.edu), and if you have technical questions or comments, please contact [Xiaochen Peng](mailto:xpeng76@gatech.edu) or [Shanshi Huang](mailto:shuang406@gatech.edu).
+If you have logistic questions or comments on the model, please contact :man: [Prof. Shimeng Yu](mailto:shimeng.yu@ece.gatech.edu), and if you have technical questions or comments, please contact :woman: [Xiaochen Peng](mailto:xpeng76@gatech.edu) or :woman: [Shanshi Huang](mailto:shuang406@gatech.edu).
 
 
 ## File lists
