@@ -2,16 +2,22 @@
 
 The DNN+NeuroSim framework was developed by [Prof. Shimeng Yu's group](https://shimeng.ece.gatech.edu/) (Georgia Institute of Technology). The model is made publicly available on a non-commercial basis. Copyright of the model is maintained by the developers, and the model is distributed under the terms of the [Creative Commons Attribution-NonCommercial 4.0 International Public License](http://creativecommons.org/licenses/by-nc/4.0/legalcode)
 
-This is the released version 1.2 (Aug 8, 2020) for the tool, and this version has **_improved following inference engine estimation_**:
+:star: This is the released version 1.2 (Aug 8, 2020) for the tool, and this version has **_improved following inference engine estimation_**:
 ```
 1. Calibrate FinFET technology library: temperature-related features.
 ```
-
-This version has also added **_new features into inference accuracy estimation_**:
+:star: This version has also added **_new features into inference accuracy estimation_**:
 ```
 1. Introduce VSA-bsaed MLSA (in addition to the original CSA-based MLSA)
 2. Introduce SAR ADC
 ```
+:point_right: :point_right: :point_right: **In "Param.cpp", to switch ADC mode:**
+```
+SARADC = false;           // false: MLSA            // true: sar ADC
+currentMode = true;       // false: MLSA use VSA    // true: MLSA use CSA
+```
+
+<br/>
 
 **_For estimation of on-chip training accelerators, please visit released V2.1 [DNN+NeuroSim V2.1](https://github.com/neurosim/DNN_NeuroSim_V2.1)_**
 
