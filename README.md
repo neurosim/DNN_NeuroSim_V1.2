@@ -23,7 +23,7 @@ currentMode = true;       // false: MLSA use VSA    // true: MLSA use CSA
 
 In Pytorch/Tensorflow wrapper, users are able to define **_network structures, precision of synaptic weight and neural activation_**. With the integrated NeuroSim which takes real traces from wrapper, the framework can support hierarchical organization from device level to circuit level, to chip level and to algorithm level, enabling **_instruction-accurate evaluation on both accuracy and hardware performance of inference_**.
 
-Developers: [Xiaochen Peng](mailto:xpeng76@gatech.edu), [Shanshi Huang](mailto:shuang406@gatech.edu).
+Developers: [Xiaochen Peng](mailto:xpeng76@gatech.edu) :two_women_holding_hands: [Shanshi Huang](mailto:shuang406@gatech.edu).
 
 This research is supported by NSF CAREER award, NSF/SRC E2CDA program, and ASCENT, one of the SRC/DARPA JUMP centers.
 
