@@ -159,6 +159,7 @@ void ProcessingUnitInitialize(SubArray *& subArray, InputParameter& inputParamet
 	subArray->numCellPerSynapse = param->numColPerSynapse;
 	subArray->SARADC = param->SARADC;
 	subArray->currentMode = param->currentMode;
+	subArray->spikingMode = NONSPIKING;
 	
 	int numRow = param->numRowSubArray;
 	int numCol = param->numColSubArray;
